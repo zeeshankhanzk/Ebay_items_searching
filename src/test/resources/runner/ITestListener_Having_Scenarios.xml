@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite_Scenarios">
+	<listeners>
+		<listener
+			class-name="com.ebay.carSEARCH._04_02_ITestListener_ListenerTest_For_Scenarios"></listener>
+		<listener
+			class-name="com.ebay.carSEARCH._03_03_IRetryAnalyser_RetryListner"></listener>
+	</listeners>
+
+	<test thread-count="5" name="Test_Scenarios">
+
+		<classes>
+			<class
+				name="com.ebay.carSEARCH._04_01_ITestListener_Test_Cases_Having_Scenarios" />
+		</classes>
+	</test> <!-- Test_Scenarios -->
+</suite> <!-- Suite_Scenarios -->
