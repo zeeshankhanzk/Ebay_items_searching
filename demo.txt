@@ -1,3 +1,5 @@
 this is for learning jenkins poll SCM
 
 paanga lenaa hai 
+
+kya Poll SCM kaam nahi keraha
